@@ -1,4 +1,7 @@
 package com.ForumHub.infra.security;
 
-public record DadosTokenJWT() {
+import com.ForumHub.domain.usuario.Usuario;
+
+public record DadosTokenJWT(String token) {
+
 }
